@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="" name="description">
+    <meta content="Mark Otto, Jacob Thornton, and Bootstrap contributors" name="author">
+    <meta content="Hugo 0.101.0" name="generator">
+    <title>Dream-Email Login</title>
+    <link href="https://getbootstrap.com/docs/4.6/examples/floating-labels/" rel="canonical">
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/floating-labels.css" rel="stylesheet">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        body {
+            background-image: url("../static/dreamback.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+
+</head>
+<body>
+<form class="form-signin" action="/login" method="post">
+    <div class="text-center mb-4">
+        <img alt="" class="mb-4" height="72"  src="../static/dream.jpg" >
+        <h1 class="h3 mb-3 font-weight-normal" style="color:white;">Login</h1>
+    </div>
+
+    <div class="form-label-group">
+        <input autofocus class="form-control" id="inputEmail" name="email" placeholder="Email address" required type="email">
+        <label for="inputEmail">Email address</label>
+    </div>
+
+    <div class="form-label-group">
+        <input class="form-control" id="inputPassword" name="password" placeholder="Password" required type="password">
+        <label for="inputPassword">Password</label>
+    </div>
+
+    <div class="checkbox mb-3">
+        <label style="color:white;">
+            <input type="checkbox" value="remember-me" style="color:white;"> Remember me
+        </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">register</button>
+    <p class="mt-5 mb-3 text-muted text-center">&copy; 2023-2024</p>
+</form>
+
+</body>
+</html>
